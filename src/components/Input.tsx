@@ -7,10 +7,10 @@ export function Input({
     HTMLInputElement
 >) {
     return (
-        <Input
+        <input
             className={styles.container}
             placeholder = "Adicione uma nova tarefa"
-            { ...rest }
+            {...rest}
         />
     )
 }
