@@ -70,11 +70,11 @@ export function App() {
 
       <section className={styles.content}>
         <div className={styles.taskInfoContainer}>
-          <Input onChange={(e) => setInputTodoValue(e.target.value)}/>
-          <Button onClick={handleAddTaskTodo}>
+          {/* <Input onChange={(e) => setInputTodoValue(e.target.value)}/> */}
+          {/* <Button onClick={handleAddTaskTodo}>
             Criar
             <PlusCircle size={16} color="#f2f2f2" weight="bold"/>
-          </Button>
+          </Button> */}
         </div>
       </section>
     </main>
